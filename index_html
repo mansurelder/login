@@ -1,0 +1,31 @@
+<html>
+    <head> 
+        <title>вход</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+        <body>
+                <form action="action_page.php">
+                <div class="imgcontainer">
+                    <img src="https://msiter.ru/sites/default/files/msiter_files/img_avatar2.png" alt="Avatar" class="avatar">
+                </div>
+                <div class="container">
+                    <label for="username"><b>Username</b></label>
+                    <input type="text" placeholder="Enter username" name="username" required>
+                    <label for="Email"><b>Email</b></label>
+                    <input type="text" placeholder="Enter Email" name="Email" required>
+
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+
+                    <button type="submit">Login</button>
+                    <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                    </label>
+                </div>
+
+                <div class="container" style="background-color:#f1f1f1;">
+                    <button type="button" class="cancelbtn"><a class="cancel" href="https://algoritmikaa.github.io/elderbievm3/">Cancel</a></button>
+                </div>
+                </form>
+    </body>
+</html>
